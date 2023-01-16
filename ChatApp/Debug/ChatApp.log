@@ -1,0 +1,28 @@
+﻿  Client.cpp
+D:\Facultate\ChatApp\Client.cpp(45,18): warning C4267: '=': conversion from 'size_t' to 'char', possible loss of data
+D:\Facultate\ChatApp\Client.cpp(70,20): warning C4018: '<': signed/unsigned mismatch
+  ConnectionClosedException.cpp
+  Main.cpp
+D:\Facultate\ChatApp\Main.cpp(184,41): error C2664: 'INT_PTR DialogBoxParamA(HINSTANCE,LPCSTR,HWND,DLGPROC,LPARAM)': cannot convert argument 4 from 'LONG_PTR (__stdcall *)(HWND,UINT,WPARAM,LPARAM)' to 'DLGPROC'
+D:\Facultate\ChatApp\Main.cpp(184,107): message : None of the functions with this name in scope match the target type
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winuser.h(5057,1): message : see declaration of 'DialogBoxParamA'
+D:\Facultate\ChatApp\Main.cpp(184,41): message : while trying to match the argument list '(HINSTANCE, LPSTR, HWND, overloaded-function, int)'
+D:\Facultate\ChatApp\Main.cpp(234,6): error C2664: 'INT_PTR DialogBoxParamA(HINSTANCE,LPCSTR,HWND,DLGPROC,LPARAM)': cannot convert argument 4 from 'LONG_PTR (__stdcall *)(HWND,UINT,WPARAM,LPARAM)' to 'DLGPROC'
+D:\Facultate\ChatApp\Main.cpp(234,72): message : None of the functions with this name in scope match the target type
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winuser.h(5057,1): message : see declaration of 'DialogBoxParamA'
+D:\Facultate\ChatApp\Main.cpp(234,6): message : while trying to match the argument list '(HINSTANCE, LPSTR, HWND, overloaded-function, int)'
+D:\Facultate\ChatApp\Main.cpp(239,6): error C2664: 'INT_PTR DialogBoxParamA(HINSTANCE,LPCSTR,HWND,DLGPROC,LPARAM)': cannot convert argument 4 from 'LONG_PTR (__stdcall *)(HWND,UINT,WPARAM,LPARAM)' to 'DLGPROC'
+D:\Facultate\ChatApp\Main.cpp(239,72): message : None of the functions with this name in scope match the target type
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winuser.h(5057,1): message : see declaration of 'DialogBoxParamA'
+D:\Facultate\ChatApp\Main.cpp(239,6): message : while trying to match the argument list '(HINSTANCE, LPSTR, HWND, overloaded-function, int)'
+D:\Facultate\ChatApp\Main.cpp(265,6): warning C4007: 'WinMain': must be '__stdcall'
+D:\Facultate\ChatApp\Main.cpp(273,25): error C2440: '=': cannot convert from 'LRESULT (__cdecl *)(HWND,UINT,WPARAM,LPARAM)' to 'WNDPROC'
+D:\Facultate\ChatApp\Main.cpp(273,25): message : This conversion requires a reinterpret_cast, a C-style cast or parenthesized function-style cast
+D:\Facultate\ChatApp\Main.cpp(392,3): error C2664: 'INT_PTR DialogBoxParamA(HINSTANCE,LPCSTR,HWND,DLGPROC,LPARAM)': cannot convert argument 4 from 'LONG_PTR (__stdcall *)(HWND,UINT,WPARAM,LPARAM)' to 'DLGPROC'
+D:\Facultate\ChatApp\Main.cpp(392,74): message : None of the functions with this name in scope match the target type
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winuser.h(5057,1): message : see declaration of 'DialogBoxParamA'
+D:\Facultate\ChatApp\Main.cpp(392,3): message : while trying to match the argument list '(HINSTANCE, LPSTR, HWND, overloaded-function, int)'
+  Server.cpp
+D:\Facultate\ChatApp\Server.cpp(36,23): warning C4267: '=': conversion from 'size_t' to 'char', possible loss of data
+D:\Facultate\ChatApp\Server.cpp(89,23): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...

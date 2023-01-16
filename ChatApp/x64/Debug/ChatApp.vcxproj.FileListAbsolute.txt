@@ -1,0 +1,2 @@
+D:\Fiverr Projects\ChatApp\x64\Debug\ChatApp.exe
+D:\Facultate\ChatApp\x64\Debug\ChatApp.exe
